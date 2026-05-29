@@ -9,7 +9,9 @@ pub mod prelude {
     pub use crate::{ContextExt as _, Localization, ResponseExt as _, UiExt as _};
 }
 
+pub mod ui;
+
 mod context;
 mod localization;
+mod r#macro;
 mod response;
-pub mod ui;
