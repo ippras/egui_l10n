@@ -5,6 +5,13 @@ macro_rules! asset {
     };
 }
 
+#[macro_export]
+macro_rules! ftl {
+    ($path:literal) => {
+        include_str!(concat!(env!("CARGO_MANIFEST_DIR"), "/ftl/", $path))
+    };
+}
+
 // #[macro_export]
 // macro_rules! l10n {
 //     ($id:expr) => {
