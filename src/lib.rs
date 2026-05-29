@@ -6,7 +6,7 @@ pub use unic_langid::langid;
 pub const ID_SOURCE: &str = "EguiL10n";
 
 pub mod prelude {
-    pub use crate::{ContextExt as _, Localization, ResponseExt as _, UiExt as _};
+    pub use crate::{ContextExt as _, Localization, ResponseExt as _, UiExt as _, l10n};
 }
 
 pub mod ui;
