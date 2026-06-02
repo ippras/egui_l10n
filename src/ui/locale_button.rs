@@ -1,4 +1,4 @@
-use crate::UiExt as _;
+use crate::ContextExt;
 use egui::{Response, RichText, Sense, TextStyle, Ui, Widget};
 use egui_phosphor::regular::TRANSLATE;
 
