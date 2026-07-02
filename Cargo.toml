@@ -1,11 +1,11 @@
 [package]
 name = "egui_l10n"
-version = "0.6.1"
+version = "0.7.0"
 edition = "2024"
 
 [dependencies]
-eframe = { version = "0.34.3", default-features = false }
-egui = { version = "0.34.3", default-features = false }
+eframe = { version = "0.35.0", default-features = false }
+egui = { version = "0.35.0", default-features = false }
 egui-phosphor = "0.12.0"
 fluent = "0.17.0"
 fluent_content = { git = "https://github.com/kgv/fluent_content" }
